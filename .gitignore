@@ -1,0 +1,17 @@
+# Runtime data
+
+pids
+_.pid
+_.seed
+*.pid.lock
+
+# Dependency directories
+
+node_modules/
+jspm_packages/
+
+# IntelliJ based IDEs
+.idea
+
+# Finder (MacOS) folder config
+.DS_Store

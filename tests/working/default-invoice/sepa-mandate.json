@@ -1,0 +1,53 @@
+{
+  "version": "0.1",
+  "type": "invoice",
+  "createdAt": "2024-12-17T14:05:31.005Z",
+  "id": "123456",
+  "servicePeriod": {
+    "start": "2024-12-17T14:05:31.005Z",
+    "end": "2024-12-17T14:05:31.005Z"
+  },
+  "paymentInformation": {
+    "dueDate": "2024-12-17T14:05:31.005Z",
+    "mandateId": "ID123456",
+    "type": "recurring",
+    "paymentType": "sepa_mandate",
+    "debitor": {
+      "companyName": "Example Company",
+      "vatId": "DE123456789",
+      "city": "Berlin",
+      "country": "DE",
+      "street": "Example Street 1",
+      "zip": "12345",
+      "duns": "123456789",
+      "iban": "DE89370400440532013000",
+      "bic": "COBADEFFXXX",
+      "contact": {
+        "email": "contact@example.com"
+      }
+    },
+    "creditor": {
+      "companyName": "Creditor Company",
+      "vatId": "DE987654321",
+      "city": "Munich",
+      "country": "DE",
+      "street": "Creditor Street 2",
+      "zip": "54321",
+      "mandateReference": "123456",
+      "contact": {
+        "email": "creditor@example.com"
+      }
+    }
+  },
+  "items": [
+    {
+      "currency": "EUR",
+      "description": "Example Item",
+      "price": 100,
+      "quantity": 1,
+      "taxRate": 19,
+      "unit": "piece",
+      "id": "1"
+    }
+  ]
+}

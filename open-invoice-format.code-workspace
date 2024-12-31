@@ -1,0 +1,17 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "json.schemas": [
+            {
+                "fileMatch": [
+                    "/tests/**/*.json"
+                ],
+                "url": "./schema.json"
+            }
+        ]
+    }
+}
