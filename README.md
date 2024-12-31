@@ -59,7 +59,7 @@ Existing standards like ZUGFeRD and XRechnung are powerful but come with signifi
 
 ### How to use inside a PDF:
 To use the open invoice format like ZugFeRD inside a PDF. Your JSON should be attached as `inbridge-oif.json` to the PDF.
-We recommend to use one of our [parsing libraries](#parsing-libraries) to make working with OIF as easy as pie!
+We recommend to use one of our [integration libraries](#integration-libraries) to make working with OIF as easy as pie!
 
 For the full schema, check out our latest [schema.json](schema.json).
 
