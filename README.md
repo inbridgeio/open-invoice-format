@@ -19,8 +19,10 @@ If not familiar with JSON check this out: [Whats JSON?](https://www.w3schools.co
 
 1. [Why Another Invoice Standard?](#why-another-invoice-standard)
 2. [Key Features](#key-features)
-3. [Getting Started](#getting-started)
-4. [Schema Details](#schema-details)
+3. [Schema Details](#schema-details)  
+3.1. [How to use inside a PDF](#how-to-use-inside-a-pdf)
+4. [Getting Started](#getting-started)  
+4.1. [Integration Libraries](#integration-libraries)
 5. [Contributing](#contributing)
 6. [License](#license)
 7. [Questions or Feedback?](#questions-or-feedback)
@@ -54,6 +56,16 @@ Existing standards like ZUGFeRD and XRechnung are powerful but come with signifi
 
 ---
 
+## Schema details
+
+### How to use inside a PDF:
+To use the open invoice format like ZugFeRD inside a PDF. Your JSON should be attached as `inbridge-oif.json` to the PDF.
+We recommend to use one of our [parsing libraries](#parsing-libraries) to make working with OIF as easy as pie!
+
+For the full schema, check out our latest [schema.json](schema.json).
+
+---
+
 ## Getting Started
 
 ### Prerequisites:
@@ -62,18 +74,12 @@ To get started you library need to be able:
 - JSON parsing
 - JSON Schema validation libraries
 
-### Parsing Libraries:
+### Integration Libraries:
 - [`Typescript`](#): coming soon
 - [`Python`](#): coming soon
 - [`Java`](#): coming soon  
 
 [Contribute your own](#contributing)
-
----
-
-## Schema details
-
-For the full schema, check out our latest [schema.json](schema.json).
 
 ---
 
