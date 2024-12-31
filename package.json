@@ -1,7 +1,10 @@
 {
   "name": "open-invoice-format",
-  "module": "validate-tests.ts",
-  "type": "module",
+  "description": "Simpler alternative to ZUGFeRD and XRechnung - based on JSON Schema.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/inbridgeio/open-invoice-format"
+  },
   "author": {
     "name": "Daniel Amzovski",
     "email": "daniel@amzovski.de"
