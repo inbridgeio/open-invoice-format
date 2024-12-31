@@ -7,42 +7,19 @@ on:
     types:
       - completed
 
+permissions:
+  contents: write
+
 jobs:
   append-schema:
     name: Append schema.json to Release
     runs-on: ubuntu-latest
 
-    if: ${{ github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.event == 'release' }}
-
+    if: ${{ github.event.release.target_commitish == 'main' }}  # Only allow release from the main branch
+    
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-
-      - name: Check for schema.json
-        id: check-file
-        run: |
-          if [ ! -f "schema.json" ]; then
-            echo "Error: schema.json not found in the current directory."
-            exit 1
-          fi
-
-      - name: Upload schema.json to the release
+      - name: '📦 Add schema.json'
+        run: gh release upload ${{ github.event.release.tag_name }} schema.json        
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          RELEASE_ID=$(curl -s \
-            -H "Authorization: token $GITHUB_TOKEN" \
-            -H "Accept: application/vnd.github.v3+json" \
-            "https://api.github.com/repos/${{ github.repository }}/releases/tags/${{ github.event.workflow_run.event.release.tag_name }}" \
-            | jq -r .id)
-
-          if [ "$RELEASE_ID" = "null" ]; then
-            echo "Error: Release not found or invalid release tag."
-            exit 1
-          fi
-
-          curl -X POST \
-            -H "Authorization: token $GITHUB_TOKEN" \
-            -H "Accept: application/vnd.github.v3+json" \
-            -F "file=@schema.json" \
-            "https://uploads.github.com/repos/${{ github.repository }}/releases/$RELEASE_ID/assets?name=schema.json"
+          GITHUB_TOKEN: ${{ github.TOKEN }}
+    
