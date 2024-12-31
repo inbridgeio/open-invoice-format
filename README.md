@@ -24,7 +24,6 @@ If not familiar with JSON check this out: [Whats JSON?](https://www.w3schools.co
 4. [Getting Started](#getting-started)  
 4.1. [Integration Libraries](#integration-libraries)
 5. [Contributing](#contributing)
-6. [License](#license)
 7. [Questions or Feedback?](#questions-or-feedback)
 
 ---
