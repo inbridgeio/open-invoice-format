@@ -43,6 +43,8 @@
       "quantity": 1,
       "taxRate": 19,
       "unit": "piece",
+      "discount": 10,
+      "discountType": "percentage",
       "id": "1"
     }
   ]

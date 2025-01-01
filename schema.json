@@ -682,10 +682,10 @@
     "InvoiceItem": {
       "oneOf": [
         {
-          "$ref": "#/definitions/InvoiceItemWithDiscount"
+          "$ref": "#/definitions/InvoiceItemWithoutDiscount"
         },
         {
-          "$ref": "#/definitions/InvoiceItemWithoutDiscount"
+          "$ref": "#/definitions/InvoiceItemWithDiscount"
         }
       ]
     },
