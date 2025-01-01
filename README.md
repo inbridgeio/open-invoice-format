@@ -74,9 +74,9 @@ To get started you library need to be able:
 - JSON Schema validation libraries
 
 ### Integration Libraries:
-- [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png" width="20" valign="middle"> `oif-ts`](https://github.com/inbridgeio/oif-ts): Work with OIF in TypeScript and JavaScript
-- [`Python`](#): coming soon
-- [`Java`](#): coming soon  
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png" width="20" valign="middle"> [`oif-ts`](https://github.com/inbridgeio/oif-ts): Work with OIF in TypeScript and JavaScript  
+[`Python`](#): coming soon  
+[`Java`](#): coming soon  
 
 [Contribute your own](#contributing)
 
