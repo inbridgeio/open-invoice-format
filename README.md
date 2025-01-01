@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/u/189235068?s=200" width="200px" align="center" alt="Zod logo" />
+  <img src="https://avatars.githubusercontent.com/u/189235068?s=200" width="200px" align="center" alt="OIF Logo" />
   <h1 align="center">📜 Open Invoice Format 📜</h1>
   <p align="center">
     A simple, open-source JSON schema for invoices, designed as an alternative to unnecessary complex standards like ZUGFeRD and XRechnung.
@@ -74,7 +74,7 @@ To get started you library need to be able:
 - JSON Schema validation libraries
 
 ### Integration Libraries:
-- [`Typescript`](#): coming soon
+- [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png" width="20" valign="middle"> `oif-ts`](https://github.com/inbridgeio/oif-ts): Work with OIF in TypeScript and JavaScript
 - [`Python`](#): coming soon
 - [`Java`](#): coming soon  
 
