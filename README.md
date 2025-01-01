@@ -75,29 +75,42 @@ To get started you library need to be able:
 
 
 <table>
-  <tr><th><h3>Integration Libraries:</h3></th></tr>
+  <tr><th colspan="2"><h3>Integration Libraries:</h3></th></tr>
   <tr>
-    <td valign="center">
+    <td>
       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png" width="20" valign="middle">
-      <a href="https://github.com/inbridgeio/oif-ts"> @inbridgeio/oif-ts</a>:  Work with OIF in TypeScript and JavaScript
+      <a href="https://github.com/inbridgeio/oif-ts"> @inbridgeio/oif-ts</a>
+    </td>
+    <td>
+      Work with OIF in TypeScript and JavaScript
     </td>
   </tr>
   <tr>
     <td valign="center">
       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/121px-Python-logo-notext.svg.png" width="20" valign="middle">
-      <a href="#"> Python</a>: Coming soon
+      <a href="#"> Python</a>
+    </td>
+    <td>
+      Coming soon
     </td>
   </tr>
   <tr>
     <td valign="center">
       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/121px-PHP-logo.svg.png" width="20" valign="middle">
-      <a href="#"> PHP</a>: Coming soon
+      <a href="#"> PHP</a>
+    </td>
+    <td>
+      Coming soon
     </td>
   </tr>
   <tr>
     <td valign="center">
       <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/121px-Java_programming_language_logo.svg.png" width="20" valign="middle">
-      <a href="#"> Java</a>: Coming soon
+      <a href="#"> Java</a>
+    </td>
+    <td>
+      Coming soon
+    </td>
     </td>
   </tr>
 </table>  
