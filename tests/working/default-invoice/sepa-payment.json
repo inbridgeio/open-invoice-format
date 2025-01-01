@@ -10,13 +10,13 @@
   "paymentInformation": {
     "paymentType": "sepa",
     "debitor": {
-      "companyName": "Example Company",
-      "vatId": "DE123456789",
       "city": "Berlin",
       "country": "DE",
       "street": "Example Street 1",
       "zip": "12345",
       "contact": {
+        "firstname": "Barbera",
+        "lastname": "Streichsand",
         "email": "contact@example.com"
       }
     },

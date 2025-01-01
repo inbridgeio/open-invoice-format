@@ -1,9 +1,9 @@
 {
-  "$id": "https://inbridge.io/schemas/0.1.json",
+  "$id": "https://github.com/inbridgeio/open-invoice-format/releases/download/0.1/schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
-  "title": "Open Invoice Format v.0.1",
-  "description": "This schema defines the Open Invoice Format v.0.1 as an much easier to use and more reliable alternative to ZugFERD and XRechnung.",
+  "title": "Open Invoice Format",
+  "description": "This schema defines the Open Invoice Format as an much easier to use and more reliable alternative to ZugFERD and XRechnung.",
   "definitions": {
     "SCHEMA_VERSION": {
       "description": "The version of the schema.",
@@ -649,11 +649,9 @@
       },
       "required": [
         "city",
-        "companyName",
         "contact",
         "country",
         "street",
-        "vatId",
         "zip"
       ],
       "additionalProperties": false
@@ -843,12 +841,10 @@
               "required": [
                 "bic",
                 "city",
-                "companyName",
                 "contact",
                 "country",
                 "iban",
                 "street",
-                "vatId",
                 "zip"
               ]
             }
@@ -947,12 +943,10 @@
               },
               "required": [
                 "city",
-                "companyName",
                 "contact",
                 "country",
                 "mandateReference",
                 "street",
-                "vatId",
                 "zip"
               ]
             }
@@ -1084,12 +1078,10 @@
               "required": [
                 "bic",
                 "city",
-                "companyName",
                 "contact",
                 "country",
                 "iban",
                 "street",
-                "vatId",
                 "zip"
               ]
             }
@@ -1172,6 +1164,7 @@
                 "cardholderName"
               ]
             },
+            
             {
               "type": "object",
               "additionalProperties": false,
@@ -1190,18 +1183,6 @@
                 },
                 "country": {
                   "$ref": "#/definitions/CountryCode"
-                },
-                "companyName": {
-                  "type": "string"
-                },
-                "duns": {
-                  "$ref": "#/definitions/DUNS"
-                },
-                "vatId": {
-                  "type": "string"
-                },
-                "taxId": {
-                  "type": "string"
                 },
                 "contact": {
                   "$ref": "#/definitions/PrivateContact"
@@ -1223,11 +1204,9 @@
               },
               "required": [
                 "city",
-                "companyName",
                 "contact",
                 "country",
                 "street",
-                "vatId",
                 "zip",
                 "lastFourDigits",
                 "expirationDate",
@@ -1343,11 +1322,9 @@
               },
               "required": [
                 "city",
-                "companyName",
                 "contact",
                 "country",
                 "street",
-                "vatId",
                 "zip"
               ]
             }

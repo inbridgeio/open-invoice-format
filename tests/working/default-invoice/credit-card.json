@@ -10,17 +10,16 @@
   "paymentInformation": {
     "paymentType": "credit_card",
     "debitor": {
-      "companyName": "Example Company",
-      "vatId": "DE123456789",
       "city": "Berlin",
       "country": "DE",
       "street": "Example Street 1",
       "zip": "12345",
-      "duns": "123456789",
       "cardholderName": "John Doe",
       "lastFourDigits": "5678",
       "expirationDate": "07/22",
       "contact": {
+        "firstname": "Barbera",
+        "lastname": "Streichsand",
         "email": "contact@example.com"
       }
     },

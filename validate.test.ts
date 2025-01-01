@@ -11,8 +11,8 @@ const ajv = new Ajv({ removeAdditional: true });
 addFormats(ajv);
 const validate = ajv.compile(schema);
 
-
-/*const testFilePath = join(__dirname, 'tests', 'working/default-invoice/sepa-mandate.json');
+/* 
+const testFilePath = join(__dirname, 'tests', 'working/default-invoice/credit-card.json');
 console.log(testFilePath);
 
 const testContent = readFileSync(testFilePath, 'utf8');
@@ -21,7 +21,7 @@ let isValid = validate(testJson);
 
 console.log(isValid ? 'OK' : 'FAIL');
 console.log(validate.errors);
-process.exit();*/
+process.exit(); */
 
 const validateTests = (testsDir: string, shouldPass: boolean) => {
     const tests = readdirSync(testsDir);
@@ -37,10 +37,10 @@ const validateTests = (testsDir: string, shouldPass: boolean) => {
                 const testJson = JSON.parse(testContent);
                 test(`${testFile.split('.')[0]}`, () => {
                     const isValid = validate(testJson);
-                    expect(isValid).toBe(shouldPass);
                     if (isValid !== shouldPass) {
                         console.log(validate.errors);
                     }
+                    expect(isValid).toBe(shouldPass);
                 });
                   
     
