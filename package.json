@@ -11,7 +11,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "test": "bun run validate-tests.ts"
+    "test": "bun run validate.tests.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"
