@@ -1,5 +1,5 @@
 {
-  "$id": "https://github.com/inbridgeio/open-invoice-format/releases/download/0.1/schema.json",
+  "$id": "https://github.com/inbridgeio/open-invoice-format/releases/download/2025.01/schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
   "title": "Open Invoice Format",
@@ -7,7 +7,7 @@
   "definitions": {
     "SCHEMA_VERSION": {
       "description": "The version of the schema.",
-      "const": "0.1"
+      "const": "2025.01"
     },
     "IBAN": {
       "type": "string",
