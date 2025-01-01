@@ -1336,10 +1336,10 @@
         "creditor": {
           "oneOf": [
             {
-              "$ref": "#/definitions/BusinessPostalAddress"
+              "$ref": "#/definitions/PrivatePostalAddress"
             },
             {
-              "$ref": "#/definitions/PrivatePostalAddress"
+              "$ref": "#/definitions/BusinessPostalAddress"
             }
           ]
         }
