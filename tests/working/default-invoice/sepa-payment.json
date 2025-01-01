@@ -1,48 +1,102 @@
 {
-  "version": "0.1",
+  "id": "1234",
   "type": "invoice",
-  "createdAt": "2024-12-17T14:05:31.005Z",
-  "id": "123456",
+  "createdAt": "2025-01-01T14:57:38.874Z",
+  "items": [
+    {
+      "id": "04V8G0YO",
+      "description": "Unbranded Cotton Shoes",
+      "quantity": 50,
+      "unit": "piece",
+      "price": 996.39,
+      "currency": "EUR",
+      "taxRate": 19
+    },
+    {
+      "id": "MWD22LIC",
+      "description": "Unbranded Soft Fish",
+      "quantity": 30,
+      "unit": "piece",
+      "price": 414.33,
+      "currency": "EUR",
+      "taxRate": 19
+    },
+    {
+      "id": "8SLJNS65",
+      "description": "Rustic Granite Chips",
+      "quantity": 74,
+      "unit": "piece",
+      "price": 664.65,
+      "currency": "EUR",
+      "taxRate": 19
+    },
+    {
+      "id": "U2TUS4VT",
+      "description": "Bespoke Soft Chips",
+      "quantity": 15,
+      "unit": "piece",
+      "price": 337.02,
+      "currency": "EUR",
+      "taxRate": 19
+    },
+    {
+      "id": "1MUXX4Z3",
+      "description": "Awesome Metal Soap",
+      "quantity": 25,
+      "unit": "piece",
+      "price": 416.21,
+      "currency": "EUR",
+      "taxRate": 19
+    },
+    {
+      "id": "XLIYEDZZ",
+      "description": "Practical Metal Computer",
+      "quantity": 70,
+      "unit": "piece",
+      "price": 611.96,
+      "currency": "EUR",
+      "taxRate": 19
+    },
+    {
+      "id": "ZZ9UL3RW",
+      "description": "Ergonomic Fresh Keyboard",
+      "quantity": 68,
+      "unit": "piece",
+      "price": 121.7,
+      "currency": "EUR",
+      "taxRate": 19
+    }
+  ],
   "servicePeriod": {
-    "start": "2024-12-17T14:05:31.005Z",
-    "end": "2024-12-17T14:05:31.005Z"
+    "start": "2025-01-01T14:57:38.874Z",
+    "end": "2025-01-01T14:57:38.874Z"
   },
   "paymentInformation": {
     "paymentType": "sepa",
     "debitor": {
-      "city": "Berlin",
+      "street": "Am Stadtpark 963",
+      "city": "Passau",
+      "zip": "71753",
       "country": "DE",
-      "street": "Example Street 1",
-      "zip": "12345",
       "contact": {
-        "firstname": "Barbera",
-        "lastname": "Streichsand",
-        "email": "contact@example.com"
+        "firstname": "Daniel",
+        "lastname": "Vontein",
+        "email": "Merve.Pietsch@hotmail.com"
       }
     },
     "creditor": {
-      "iban": "DE89370400440532013000",
-      "bic": "COBADEFFXXX",
-      "companyName": "Creditor Company",
-      "vatId": "DE987654321",
-      "city": "Munich",
+      "companyName": "Schorr, Dengler und Delonge",
+      "vatId": "B7388064C",
+      "street": "Erlenweg 43b",
+      "city": "Offenbach am Main",
+      "zip": "79113",
       "country": "DE",
-      "street": "Creditor Street 2",
-      "zip": "54321",
       "contact": {
-        "email": "creditor@example.com"
-      }
+        "email": "Jesper.Von54@gmail.com"
+      },
+      "iban": "ME64008003770908009009",
+      "bic": "LBQFBR7SXXX"
     }
   },
-  "items": [
-    {
-      "currency": "EUR",
-      "description": "Example Item",
-      "price": 100,
-      "quantity": 1,
-      "taxRate": 19,
-      "unit": "piece",
-      "id": "1"
-    }
-  ]
+  "version": "0.1"
 }

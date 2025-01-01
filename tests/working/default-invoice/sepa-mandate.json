@@ -13,15 +13,16 @@
     "type": "recurring",
     "paymentType": "sepa_mandate",
     "debitor": {
+      "companyName": "Example Company",
+      "vatId": "DE123456789",
       "city": "Berlin",
       "country": "DE",
       "street": "Example Street 1",
       "zip": "12345",
+      "duns": "123456789",
       "iban": "DE89370400440532013000",
       "bic": "COBADEFFXXX",
       "contact": {
-        "firstname": "Barbera",
-        "lastname": "Streichsand",
         "email": "contact@example.com"
       }
     },

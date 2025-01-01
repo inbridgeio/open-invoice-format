@@ -189,7 +189,10 @@
         },
         "discountType": {
           "$ref": "#/definitions/DiscountType"
-        }
+        },
+        "discountReason": {
+          "type": "string"
+        } 
       },
       "required": [
         "currency",
